@@ -6,7 +6,7 @@ import {
 } from '../test-env';
 import Signer from '../../src/Signer';
 import { TestProvider } from '../TestProvider';
-import { libs } from '@waves/waves-transactions';
+import { libs } from '@turtlenetwork/waves-transactions';
 
 
 const waves = new Signer({ NODE_URL: MOCK_URL });

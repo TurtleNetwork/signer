@@ -1,7 +1,7 @@
 import { ACCOUNTS, MOCK_URL, NETWORK_BYTE } from '../test-env';
 import Signer from '../../src/Signer';
 import { TestProvider } from '../TestProvider';
-import { libs } from '@waves/waves-transactions';
+import { libs } from '@turtlenetwork/waves-transactions';
 
 
 const MASTER_ADDRESS = libs.crypto.address(ACCOUNTS.SIMPLE.seed, NETWORK_BYTE);

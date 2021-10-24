@@ -54,7 +54,7 @@ Signer supports all browsers except Brave.
 * To install ProviderSeed developed by Waves team, use
 
    ```bash
-   npm i @waves/provider-seed @waves/waves-transactions
+   npm i @waves/provider-seed @turtlenetwork/waves-transactions
    ```
 
 * To install ProviderWeb developed by Waves.Exchange, use
@@ -90,7 +90,7 @@ Add library initialization to your app.
    ```js
    import { Signer } from '@waves/signer';
    import { ProviderSeed } from '@waves/provider-seed';
-   import { libs } from '@waves/waves-transactions';
+   import { libs } from '@turtlenetwork/waves-transactions';
 
    const seed = libs.crypto.randomSeed(15);
    const signer = new Signer({

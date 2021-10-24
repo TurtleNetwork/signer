@@ -1,5 +1,5 @@
 import { EventEmitter } from 'typed-ts-events';
-import { libs, signTx } from '@waves/waves-transactions';
+import { libs, signTx } from '@turtlenetwork/waves-transactions';
 import { NETWORK_BYTE } from './test-env';
 import {
     AuthEvents,
@@ -10,7 +10,7 @@ import {
     TypedData,
     UserData,
 } from '../src';
-import { TRANSACTION_TYPE } from '@waves/waves-transactions/dist/transactions';
+import { TRANSACTION_TYPE } from '@turtlenetwork/waves-transactions/dist/transactions';
 
 export class TestProvider implements Provider {
     private options: ConnectOptions = {

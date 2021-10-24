@@ -1,7 +1,7 @@
 import { NETWORK_BYTE, NODE_URL } from './test-env';
 import Signer from '../src/Signer';
 import { TestProvider } from './TestProvider';
-import { libs } from '@waves/waves-transactions';
+import { libs } from '@turtlenetwork/waves-transactions';
 
 const seed = libs.crypto.randomSeed();
 const address = libs.crypto.address(seed, NETWORK_BYTE);
