@@ -254,8 +254,8 @@ export class Signer {
                 this._options.NODE_URL,
                 this._userData!.address
             ).then((data) => ({
-                assetId: 'WAVES',
-                assetName: 'Waves',
+                assetId: 'TN',
+                assetName: 'TN',
                 decimals: 8,
                 amount: String(data.available),
                 isMyAsset: false,
@@ -276,7 +276,7 @@ export class Signer {
                         item.issueTransaction.sender ===
                         this._userData!.address,
                     tokens:
-                        item.balance *
+                        +item.balance *
                         Math.pow(10, item.issueTransaction.decimals),
                     isSmart: !!item.issueTransaction.script,
                     sponsorship:

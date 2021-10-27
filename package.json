@@ -1,15 +1,18 @@
 {
-  "name": "@waves/signer",
+  "name": "@turtlenetwork/signer",
   "version": "1.0.4",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "types": "dist/cjs/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wavesplatform/signer"
+    "url": "https://github.com/turtlenetwork/signer"
   },
   "bugs": {
-    "url": "https://github.com/wavesplatform/signer/issues"
+    "url": "https://github.com/turtlenetwork/signer/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist"
